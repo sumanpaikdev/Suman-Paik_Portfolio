@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.748);
+    padding: 18px;
+    padding-left: 20px;
+    padding-right: 10px;
+    backdrop-filter: blur(10px);
+    max-width: 100%;
+}
+.menuIcon > img{
+    height: 35px;
+    filter: invert(1);
+    opacity: .8;
+    margin-top: 3px;
+}
+.project{
+    color: rgb(237, 237, 237);
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    
+}
+.rightbar{
+    animation: pulsediv 2s cubic-bezier(0, 0, 0, .5) infinite;
+    padding: 8px;
+    background-color: rgba(34, 34, 34, 0.686);
+    border: 1.6px solid skyblue;
+    margin-right: 6px;
+
+}
+.rightbar > span {
+    color: skyblue;
+}
+@keyframes pulsediv{
+    50%{
+        transform: scale(1.04);
+        outline: 7px solid rgba(190, 190, 190, 0.193);
+
+    }
+}
