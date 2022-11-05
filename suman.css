@@ -74,13 +74,15 @@
 }
 .hireme{
     background-color: rgb(236, 250, 255);
+    background-color: rgba(54, 54, 54, 0.997);
+
     backdrop-filter: blur(17px);
-    width: 150px;
-    height: 50px;
+    width: 130px;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 27px;
+    border-radius: 9px;
     margin-top: 20px;
     border: none;
     transition: .3s;
@@ -89,12 +91,13 @@
 .hireme:hover{
     transform: scale(1.1);
     background-color: rgba(10, 10, 10, 0.971);
-    color: white;
+    border: 2px solid rgba(187, 227, 255, 0.889);
 }
 .scnamehire{
     text-decoration: none;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
+    color: white;
 }
 .skill--container{
     display: flex;
