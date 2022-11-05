@@ -16,6 +16,7 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.748);
+    background-image: linear-gradient(to bottom right, rgba(99, 176, 207, 0.427) 5%, black, black );
     padding: 18px;
     padding-left: 20px;
     padding-right: 10px;
@@ -27,6 +28,9 @@ body{
     filter: invert(1);
     opacity: .8;
     margin-top: 3px;
+}
+.menuIcon:hover{
+    opacity: .6;
 }
 .project{
     font-size: 14px;

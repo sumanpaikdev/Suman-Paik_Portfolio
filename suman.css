@@ -1,0 +1,87 @@
+#sumanpaik{
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+}
+.suman--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prpic{
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.77);
+    /* animation: sumanlgo 3s cubic-bezier(0,0,0, 1) infinite;
+    transition: .3s; */
+}
+/* @keyframes sumanlgo{
+    50%{
+        transform: scale(1.1);
+        outline: 9px solid rgba(135, 207, 235, 0.118);
+
+    }
+} */
+.heading{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 16px;
+}
+.heading > img{
+    height: 20px;
+    margin-left: 9px;
+}
+.dev--cat{
+    color: rgb(198, 239, 255);
+    font-size: 24px;
+    text-align: center;
+    margin: 0px 9px;
+}
+
+.socialitems{
+    background-color: transparent;
+    backdrop-filter: blur(17px);
+    width: 240px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 27px;
+    margin-top: 20px;
+    border: 2px solid rgb(193, 193, 193);
+    transition: .3s;
+    cursor: pointer;
+}
+.socialitems:hover{
+    transform: scale(1.1);
+    background-color: rgba(81, 81, 81, 0.425);
+}
+.scimage{
+    height: 30px;
+    margin-left: 10px;
+}
+.scname{
+    color: rgb(255, 255, 255);
+    margin-right: 80px;
+    text-decoration: none;
+
+}
+.skill--container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#skills{
+    padding: 10px;
+    margin-top: 30px;
+}
+.second{
+    width: 300px;
+    height: 300px;
+    border: 1.6px solid white;
+    margin: 6px;
+}
