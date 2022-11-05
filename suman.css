@@ -51,7 +51,10 @@
     justify-content: space-between;
     border-radius: 27px;
     margin-top: 20px;
-    border: 2px solid rgb(193, 193, 193);
+    /* border: 2px solid rgb(193, 193, 193); */
+    border: 2px solid rgba(187, 227, 255, 0.889);
+    background-image: linear-gradient(to bottom right,rgba(0, 183, 255, 0.153) 5%,  black, black);
+
     transition: .3s;
     cursor: pointer;
 }
@@ -69,6 +72,30 @@
     text-decoration: none;
 
 }
+.hireme{
+    background-color: rgb(236, 250, 255);
+    backdrop-filter: blur(17px);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 27px;
+    margin-top: 20px;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+}
+.hireme:hover{
+    transform: scale(1.1);
+    background-color: rgba(10, 10, 10, 0.971);
+    color: white;
+}
+.scnamehire{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
 .skill--container{
     display: flex;
     align-items: center;
@@ -80,8 +107,10 @@
     margin-top: 30px;
 }
 .second{
+    background-image: linear-gradient(to bottom right,rgba(0, 183, 255, 0.104) 5%,  black, black);
     width: 300px;
     height: 300px;
-    border: 1.6px solid white;
+    border: 1.6px solid rgba(165, 216, 255, 0.559);
     margin: 6px;
+    border-radius: 9px;
 }
