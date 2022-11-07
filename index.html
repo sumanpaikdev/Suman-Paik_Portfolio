@@ -10,9 +10,17 @@
 </head>
 <body>
     <header class="header--container">
+        <div class="navbar--container" id="nav-bar">
+            <a href="javascript:void(0)" class="closenav cross" onclick="closeNav()" >&times;</a>
+            <a class="navItem" href="#">Home</a>
+            <a class="navItem" href="#">About</a>
+            <a class="navItem" href="#">Projects</a>
+            <a class="navItem" href="#">Skill</a>
+            <a class="navItem" href="#">Contact</a>
+        </div>
         <nav class="navbar">
             <div class="leftbar">
-                    <a class="menuIcon" href="#"> <img src="./icon/menu.png" alt=""></a>
+                    <a class="menuIcon" href="#" class="opennav" onclick="openNav()"> <img src="./icon/menu.png" alt=""></a>
             </div>
             <div class="rightbar">
                 <a class="project" href="./projects.html" >Projects &rarr;</a>
