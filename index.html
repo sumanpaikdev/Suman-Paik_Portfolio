@@ -9,27 +9,27 @@
     <link rel="stylesheet" href="./suman.css">
 </head>
 <body>
-    <header class="header--container">
+    <header class="header--container" >
         <div class="navbar--container" id="nav-bar">
             <a href="javascript:void(0)" class="closenav cross" onclick="closeNav()" >&times;</a>
-            <a class="navItem" href="#">Home</a>
-            <a class="navItem" href="#">About</a>
-            <a class="navItem" href="#">Projects</a>
-            <a class="navItem" href="#">Skill</a>
-            <a class="navItem" href="#">Contact</a>
+            <a class="navItem" href="#home">Home</a>
+            <a class="navItem" href="./about.html">About</a>
+            <a class="navItem" href="./projects.html">Projects</a>
+            <a class="navItem" href="#skill">Skill</a>
+            <a class="navItem" href="#contact">Contact</a>
         </div>
         <nav class="navbar">
             <div class="leftbar">
-                    <a class="menuIcon" href="#" class="opennav" onclick="openNav()"> <img src="./icon/menu.png" alt=""></a>
+                    <a class="menuIcon" href="javascript:void(0)" class="opennav" onclick="openNav()"> <img src="./icon/menu.png" alt=""></a>
             </div>
             <div class="rightbar">
                 <a class="project" href="./projects.html" >Projects &rarr;</a>
             </div>
         </nav>
     </header>
-    <section id="sumanpaik">
-        <div class="suman--container">
-            <img src="https://avatars.githubusercontent.com/u/93247057?s=400&u=31694c4e106b314d24002e0050c9ddd85e67d347&v=4"class="prpic">
+    <section id="sumanpaik" >
+        <div class="suman--container" >
+            <img id="home" src="https://avatars.githubusercontent.com/u/93247057?s=400&u=31694c4e106b314d24002e0050c9ddd85e67d347&v=4"class="prpic">
             <p class="heading">Suman Paik <img src="./icon/verify.png"></p>
             <h1 class="dev--cat">Web Development | Blockchain</h1>
             <button class="socialitems">
@@ -57,11 +57,10 @@
 
     <section id="skills">
         <div class="skill--container">
-            <div class="second">
+            <div class="second" id="skill">
                 <b>skills</b>
             </div>
-            <div class="second"></div>
-            <div class="second"></div>
+            <div class="second" id="contact"></div>
         </div>
 
     </section>
