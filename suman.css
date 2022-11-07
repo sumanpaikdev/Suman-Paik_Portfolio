@@ -44,16 +44,15 @@
 .socialitems{
     background-color: transparent;
     backdrop-filter: blur(17px);
-    width: 240px;
-    height: 50px;
+    width: 245px;
+    height: 54px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 27px;
     margin-top: 20px;
-    /* border: 2px solid rgb(193, 193, 193); */
     border: 2px solid rgba(187, 227, 255, 0.889);
-    background-image: linear-gradient(to bottom right,rgba(0, 183, 255, 0.153) 5%,  black, black);
+    background-image: linear-gradient(to bottom right,rgba(0, 183, 255, 0.26) 5%,  black, black);
 
     transition: .3s;
     cursor: pointer;
@@ -73,16 +72,15 @@
 
 }
 .hireme{
-    background-color: rgb(236, 250, 255);
-    background-color: rgba(54, 54, 54, 0.997);
-
+    /* background-color: rgb(236, 250, 255); */
+    background-color: rgba(54, 54, 54, 0.468);
     backdrop-filter: blur(17px);
     width: 130px;
     height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 9px;
+    border-radius: 25px;
     margin-top: 20px;
     border: none;
     transition: .3s;
@@ -90,14 +88,14 @@
 }
 .hireme:hover{
     transform: scale(1.1);
-    background-color: rgba(10, 10, 10, 0.971);
+    background-color: rgba(10, 10, 10, 0);
     border: 2px solid rgba(187, 227, 255, 0.889);
 }
 .scnamehire{
     text-decoration: none;
     font-weight: bold;
-    font-size: 18px;
-    color: white;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.897);
 }
 .skill--container{
     display: flex;
@@ -107,13 +105,17 @@
 }
 #skills{
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 27px;
 }
 .second{
     background-image: linear-gradient(to bottom right,rgba(0, 183, 255, 0.104) 5%,  black, black);
     width: 300px;
     height: 300px;
-    border: 1.6px solid rgba(165, 216, 255, 0.559);
+    border: 1.3px solid rgba(165, 216, 255, 0.559);
     margin: 6px;
     border-radius: 9px;
+    transition: .3s;
+}
+.second:hover{
+    transform: scale(1.02);
 }
