@@ -114,3 +114,38 @@ body{
     user-select: none;
     
 }
+.skl{
+    margin-bottom: 60px;
+}
+.contact{
+    font-size: 14px;
+    color: rgba(117, 193, 255, 0.792);
+    margin-top: 9px;
+    margin-bottom: 0px;
+}
+/* skills  */
+.skillItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 12px;
+}
+.skItem{
+    color: rgba(255, 255, 255, 0.808);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.skItem >img{
+    height: 40px;
+    margin: 20px;
+    margin-bottom: 9px;
+}
+.express > img{
+    margin-bottom: 24px;
+    height: 23px;
+}
+

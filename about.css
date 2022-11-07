@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    font-family: monospace;
+}
+.about--container{
+    width: 280px;
+    border: 1.3px solid rgba(255, 255, 255, 0.167);
+    margin: 6px auto;
+    padding: 12px;
+}
+.about--container > h1{
+    color: gray;
+    text-align: center;
+    font-size: 30px;
+}
+.about--container > p{
+    color: rgba(128, 128, 128, 0.89);
+    text-align: justify;
+
+}
+hr{
+    margin: 10px 20px;
+
+}
