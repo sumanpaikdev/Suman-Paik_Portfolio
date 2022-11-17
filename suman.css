@@ -29,6 +29,7 @@
     display: flex;
     align-items: center;
     margin: 20px;
+    margin-bottom: 10px;
     font-size: 16px;
 }
 .heading > img{
@@ -36,8 +37,8 @@
     margin-left: 9px;
 }
 .dev--cat{
-    color: rgb(198, 239, 255);
-    font-size: 24px;
+    color: rgb(124, 124, 124);
+    font-size: 13px;
     text-align: center;
     margin: 0px 9px;
 }
