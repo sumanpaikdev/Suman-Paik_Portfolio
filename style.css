@@ -21,10 +21,10 @@ body{
     justify-content: space-between;
     /* background-color: rgba(0, 0, 0, 0.538); */
     /* background-image: linear-gradient(to bottom right, rgba(99, 176, 207, 0.427) 5%, black, black ); */
-    background-color: rgba(122, 224, 255, 0.23);
+    background-color: rgba(51, 50, 50, 0.292);
     padding: 12px;
     padding-left: 30px;
-    padding-right: 40px;
+    padding-right: 9px;
     backdrop-filter: blur(10px);
     max-width: 100%;
     border-radius: 40px;
@@ -35,18 +35,31 @@ body{
     top: 20px;
     z-index: 1;
     /* border-bottom: 1.3px solid rgba(18, 42, 56, 0.729); */
-    border: 2px solid rgba(255, 255, 255, 0.496);
-    border: 1.6px solid rgba(135, 207, 235, 0.767);
+    /* border: 2px solid rgba(255, 255, 255, 0.496); */
+    border: 1.6px solid rgba(207, 207, 207, 0.767);
 
     margin: 20px;
     border-radius: 40px;
 
 }
+.menuIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+.psumo{
+    color: white;
+    font-size: 17px;
+}
+
 .menuIcon > img{
     height: 35px;
     filter: invert(1);
     opacity: .8;
     margin-top: 3px;
+    margin-right: 20px;
 }
 .menuIcon:hover{
     opacity: .6;
@@ -58,10 +71,12 @@ body{
     
 }
 .rightbar{
-    animation: pulsediv 2s cubic-bezier(0, 0, 0, .5) infinite;
+    animation: pulsediv 1.8s cubic-bezier(0, 0, 0, .5) infinite;
     padding: 8px;
     background-color: transparent;
-    border: 1.6px solid skyblue;
+    /* border: 1.6px solid skyblue; */
+    /* border: 1.6px solid rgba(207, 207, 207, 0.767); */
+
     border-radius: 20px;
     margin-right: 6px;
 
