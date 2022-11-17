@@ -22,12 +22,12 @@ body{
     /* background-color: rgba(0, 0, 0, 0.538); */
     /* background-image: linear-gradient(to bottom right, rgba(99, 176, 207, 0.427) 5%, black, black ); */
     background-color: rgba(51, 50, 50, 0.292);
-    padding: 12px;
-    padding-left: 30px;
+    padding: 7px;
+    padding-left: 9px;
     padding-right: 9px;
     backdrop-filter: blur(10px);
     max-width: 100%;
-    border-radius: 40px;
+    /* border-radius: 9px; */
     
 }
 .header--container{
@@ -39,20 +39,17 @@ body{
     border: 1.6px solid rgba(207, 207, 207, 0.767);
 
     margin: 20px;
-    border-radius: 40px;
+    /* border-radius: 9px; */
 
 }
-.menuIcon{
+/* .menuIcon{
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     
 }
-.psumo{
-    color: white;
-    font-size: 17px;
-}
+ */
 
 .menuIcon > img{
     height: 35px;
@@ -66,30 +63,31 @@ body{
 }
 .project{
     font-size: 14px;
+    font-weight: bold;
     text-decoration: none;
     border: none;
     
 }
 .rightbar{
     animation: pulsediv 1.8s cubic-bezier(0, 0, 0, .5) infinite;
-    padding: 8px;
-    background-color: transparent;
+    padding: 9px;
+    background-color: white;
     /* border: 1.6px solid skyblue; */
     /* border: 1.6px solid rgba(207, 207, 207, 0.767); */
 
-    border-radius: 20px;
+    /* border-radius: 18px; */
     margin-right: 6px;
 
 
 }
 .rightbar > a {
-    color: rgba(255, 255, 255, 0.868);
+    color: rgba(0, 0, 0, 0.868);
     user-select: none;
 }
 @keyframes pulsediv{
     50%{
         transform: scale(1.04);
-        outline: 7px solid rgba(190, 190, 190, 0.193);
+        outline: 9px solid rgba(190, 190, 190, 0.232);
 
     }
 }
@@ -118,7 +116,7 @@ body{
     border-left: 1px solid rgba(255, 255, 255, 0.237);
 }
 .navItem{
-    font-size: 24px;
+    font-size: 19px;
     margin-top: 9px;
     margin-bottom: 9px;
     text-decoration: none;
