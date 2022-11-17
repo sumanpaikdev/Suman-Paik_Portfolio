@@ -53,7 +53,7 @@
     margin-top: 20px;
     border: 2px solid rgba(187, 227, 255, 0.889);
     background-image: linear-gradient(to bottom right,rgba(0, 183, 255, 0.26) 5%,  black, black);
-
+    text-decoration: none;
     transition: .3s;
     cursor: pointer;
 }
@@ -68,7 +68,6 @@
 .scname{
     color: rgb(255, 255, 255);
     margin-right: 80px;
-    text-decoration: none;
 
 }
 .hireme{
@@ -102,15 +101,17 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    height: auto;
 }
 #skills{
     padding: 10px;
     margin-top: 27px;
+    height: auto;
 }
 .second{
     background-image: linear-gradient(to bottom right,rgba(0, 183, 255, 0.104) 5%,  black, black);
     width: 300px;
-    height: 300px;
+    height: auto;
     border: 1.3px solid rgba(165, 216, 255, 0.559);
     margin: 6px;
     border-radius: 9px;
