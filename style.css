@@ -27,29 +27,33 @@ body{
     padding-right: 9px;
     backdrop-filter: blur(10px);
     max-width: 100%;
-    /* border-radius: 9px; */
+    border-radius: 9px;
     
 }
 .header--container{
     position: sticky;
-    top: 20px;
+    top: 12px;
     z-index: 1;
     /* border-bottom: 1.3px solid rgba(18, 42, 56, 0.729); */
     /* border: 2px solid rgba(255, 255, 255, 0.496); */
     border: 1.6px solid rgba(207, 207, 207, 0.767);
 
-    margin: 20px;
-    /* border-radius: 9px; */
+    margin: 10px;
+    border-radius: 9px;
 
 }
-/* .menuIcon{
+.menuIcon{
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     
 }
- */
+.menuIcon > p{
+    color: white;
+    font-size: 14px;
+}
+
 
 .menuIcon > img{
     height: 35px;
@@ -74,8 +78,7 @@ body{
     background-color: white;
     /* border: 1.6px solid skyblue; */
     /* border: 1.6px solid rgba(207, 207, 207, 0.767); */
-
-    /* border-radius: 18px; */
+    border-radius: 3px;
     margin-right: 6px;
 
 
@@ -86,8 +89,9 @@ body{
 }
 @keyframes pulsediv{
     50%{
-        transform: scale(1.04);
-        outline: 9px solid rgba(190, 190, 190, 0.232);
+        transform: scale(1.06);
+        /* outline: 9px solid rgba(141, 141, 141, 0.232); */
+        box-shadow: 0px 0px 20px 3px rgba(255, 255, 255, 0.334);
 
     }
 }
@@ -104,15 +108,14 @@ body{
     height: 100vh;
     width: 0;
     position: fixed;
-    top: 20px;
+    top: 0px;
     right: 0;
     background-color: rgba(0, 0, 0, 0.752);
     backdrop-filter: blur(10px);
     overflow-x: hidden;
     transition: 0.3s;
-    padding-top: 60px;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 210px;
     /* border-left: 1px solid rgba(255, 255, 255, 0.237); */
 }
 .navItem{
@@ -129,7 +132,7 @@ body{
 }
 .cross{
     position: absolute;
-    top: 70px;
+    top: 80px;
     right: 30px;
     font-size: 40px;
     text-decoration: none;
