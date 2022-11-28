@@ -26,7 +26,7 @@ body{
     padding-left: 9px;
     padding-right: 9px;
     backdrop-filter: blur(10px);
-    max-width: 100%;
+    /* max-width: 100%; */
     border-radius: 9px;
     
 }
@@ -36,10 +36,12 @@ body{
     z-index: 1;
     /* border-bottom: 1.3px solid rgba(18, 42, 56, 0.729); */
     /* border: 2px solid rgba(255, 255, 255, 0.496); */
-    border: 1.6px solid rgba(207, 207, 207, 0.767);
+    border: 1px solid rgba(207, 207, 207, 0.53);
 
-    margin: 10px;
-    border-radius: 9px;
+    margin: 10px auto;
+    border-radius: 5px;
+    max-width: 20%;
+
 
 }
 .menuIcon{
@@ -56,10 +58,10 @@ body{
 
 
 .menuIcon > img{
-    height: 35px;
+    height: 27px;
     filter: invert(1);
     opacity: .8;
-    margin-top: 3px;
+    margin-top: 2px;
     margin-right: 20px;
 }
 .menuIcon:hover{

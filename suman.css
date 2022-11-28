@@ -51,17 +51,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 9px;
+    border-radius: 5px;
     margin-top: 20px;
-    border: 2px solid rgba(226, 226, 226, 0.675);
-    background-image: linear-gradient(to bottom right,rgba(255, 255, 255, 0.119) 5%,  black, black);
+    border: 1px solid rgba(226, 226, 226, 0.4);
+    background-image: linear-gradient(to bottom right,rgba(255, 255, 255, 0.063) 5%,  black, black);
     text-decoration: none;
     transition: .3s;
     cursor: pointer;
 }
 .socialitems:hover{
     transform: scale(1.05);
-    background-color: rgba(81, 81, 81, 0.684);
+    background-color: rgba(34, 34, 34, 0.4);
 }
 .scimage{
     height: 30px;
